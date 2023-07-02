@@ -1,0 +1,36 @@
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.inner-div {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn:hover {
+  background-color: black;
+  color: beige;
+  box-shadow: none;
+}
+.btn {
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px grey;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.btn-span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.counter {
+  font-size: 32px;
+  font-weight: bold;
+}
